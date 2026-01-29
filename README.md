@@ -94,10 +94,13 @@ The application will be available at:
 
 http://localhost:5000
 
-###Demo Video
-A short walkthrough explaining:
-System workflow
-Prompt design and response handling
-Evaluation metrics and iteration approach
+---
 
-▶ Watch here:https://drive.google.com/file/d/1ZGi5UvTm7qNwh-bhKQcpu6Adle6jmVXx/view?usp=sharing
+## Live Demo / Video Walkthrough
+
+🔗 **Video demonstration:**  
+*((https://drive.google.com/file/d/1ZGi5UvTm7qNwh-bhKQcpu6Adle6jmVXx/view?usp=sharing))*  
+
+
+---
+
