@@ -62,21 +62,42 @@ DocAssist addresses these gaps by providing:
 
 ---
 
+
 ## Setup and Installation
 
 ### 1) Clone the repository
 ```bash
 git clone https://github.com/GodhuliVyas/DocAssist.git
 cd DocAssist
+
+2) Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate   # macOS / Linux
-venv\Scripts\activate      # Windows
+
+
+macOS / Linux
+
+source venv/bin/activate
+
+
+Windows
+
+venv\Scripts\activate
+
+3) Install dependencies
 pip install -r requirements.txt
+
+4) Run the application
 python app.py
+
+
+The application will be available at:
+
 http://localhost:5000
 
-***Demo Video***
+###Demo Video
+A short walkthrough explaining:
+System workflow
+Prompt design and response handling
+Evaluation metrics and iteration approach
 
-
-
-
+▶ Watch here:https://drive.google.com/file/d/1ZGi5UvTm7qNwh-bhKQcpu6Adle6jmVXx/view?usp=sharing
