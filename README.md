@@ -34,7 +34,7 @@ DocAssist addresses all four with a single AI-powered system.
 
 ## 🏗️ System Architecture
 
-![DocAssist System Architecture](docassist-architecture.svg)
+![DocAssist System Architecture](images/docassist-architecture.svg)
 
 Three layers work together: the **Patient Layer** captures symptoms, vitals, and queries. The **AI Core** runs NLP extraction, prompt structuring, Groq LLM inference, and response evaluation. The **Doctor Layer** surfaces everything as a clean dashboard with diagnostic support and report tracking.
 
@@ -42,7 +42,7 @@ Three layers work together: the **Patient Layer** captures symptoms, vitals, and
 
 ## 🔄 Patient Journey
 
-![DocAssist Patient Flow](docassist-patient-flow.svg)
+![DocAssist Patient Flow](images/docassist-patient-flow.svg)
 
 From symptom input to a doctor-ready summary in under 60 seconds — five steps, fully automated.
 
@@ -135,10 +135,6 @@ App runs at `http://localhost:5000`
 ## 🎥 Demo
 
 [![Watch the Demo](https://img.shields.io/badge/Watch_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1ZGi5UvTm7qNwh-bhKQcpu6Adle6jmVXx/view?usp=sharing)
-
-
-https://github.com/user-attachments/assets/92fed726-4cac-4c90-b0ba-a17e73728827
-
 
 ---
 
