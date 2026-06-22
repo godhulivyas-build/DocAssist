@@ -1,0 +1,65 @@
+<svg viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <title>DocAssist System Architecture</title>
+  <rect width="760" height="340" fill="#0f172a" rx="12"/>
+  <text x="380" y="30" text-anchor="middle" fill="#94a3b8" font-size="12" letter-spacing="2">DOCASSIST — SYSTEM ARCHITECTURE</text>
+
+  <!-- PATIENT LAYER -->
+  <rect x="24" y="50" width="160" height="240" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="104" y="74" text-anchor="middle" fill="#3b82f6" font-size="10" font-weight="bold" letter-spacing="1">PATIENT</text>
+  <rect x="40" y="86" width="128" height="44" rx="7" fill="#172554"/>
+  <text x="104" y="105" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="bold">Symptom Input</text>
+  <text x="104" y="120" text-anchor="middle" fill="#64748b" font-size="9">Query / Description</text>
+  <rect x="40" y="144" width="128" height="44" rx="7" fill="#172554"/>
+  <text x="104" y="163" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="bold">Vital Signs</text>
+  <text x="104" y="178" text-anchor="middle" fill="#64748b" font-size="9">HR · BP · O2 · Glucose</text>
+  <rect x="40" y="202" width="128" height="44" rx="7" fill="#172554"/>
+  <text x="104" y="221" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="bold">24/7 Chatbot</text>
+  <text x="104" y="236" text-anchor="middle" fill="#64748b" font-size="9">Multi-turn Q&amp;A</text>
+
+  <!-- AI CORE -->
+  <rect x="220" y="50" width="320" height="240" rx="10" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="380" y="74" text-anchor="middle" fill="#8b5cf6" font-size="10" font-weight="bold" letter-spacing="1">AI CORE — GROQ API + LLMs</text>
+  <rect x="240" y="86" width="130" height="44" rx="7" fill="#2e1065"/>
+  <text x="305" y="105" text-anchor="middle" fill="#c4b5fd" font-size="11" font-weight="bold">NLP Pipeline</text>
+  <text x="305" y="120" text-anchor="middle" fill="#64748b" font-size="9">Entity Extraction</text>
+  <rect x="390" y="86" width="130" height="44" rx="7" fill="#2e1065"/>
+  <text x="455" y="105" text-anchor="middle" fill="#c4b5fd" font-size="11" font-weight="bold">Prompt Layer</text>
+  <text x="455" y="120" text-anchor="middle" fill="#64748b" font-size="9">Context Structuring</text>
+  <rect x="240" y="150" width="280" height="52" rx="7" fill="#3b0764"/>
+  <text x="380" y="171" text-anchor="middle" fill="#e9d5ff" font-size="13" font-weight="bold">⚡ Groq LLM Inference</text>
+  <text x="380" y="189" text-anchor="middle" fill="#64748b" font-size="9">Sub-second response · Open-source LLMs</text>
+  <rect x="240" y="216" width="130" height="44" rx="7" fill="#2e1065"/>
+  <text x="305" y="235" text-anchor="middle" fill="#c4b5fd" font-size="11" font-weight="bold">Doc Summariser</text>
+  <text x="305" y="250" text-anchor="middle" fill="#64748b" font-size="9">NLP · Medical docs</text>
+  <rect x="390" y="216" width="130" height="44" rx="7" fill="#2e1065"/>
+  <text x="455" y="235" text-anchor="middle" fill="#c4b5fd" font-size="11" font-weight="bold">Evaluator</text>
+  <text x="455" y="250" text-anchor="middle" fill="#64748b" font-size="9">Relevance · Safety</text>
+
+  <!-- DOCTOR LAYER -->
+  <rect x="576" y="50" width="160" height="240" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+  <text x="656" y="74" text-anchor="middle" fill="#10b981" font-size="10" font-weight="bold" letter-spacing="1">DOCTOR</text>
+  <rect x="592" y="86" width="128" height="44" rx="7" fill="#052e16"/>
+  <text x="656" y="105" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold">Dashboard</text>
+  <text x="656" y="120" text-anchor="middle" fill="#64748b" font-size="9">Patient Profiles</text>
+  <rect x="592" y="144" width="128" height="44" rx="7" fill="#052e16"/>
+  <text x="656" y="163" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold">Diagnostic Aid</text>
+  <text x="656" y="178" text-anchor="middle" fill="#64748b" font-size="9">AI Suggestions</text>
+  <rect x="592" y="202" width="128" height="44" rx="7" fill="#052e16"/>
+  <text x="656" y="221" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold">Report Tracking</text>
+  <text x="656" y="236" text-anchor="middle" fill="#64748b" font-size="9">History · Scheduling</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <line x1="168" y1="108" x2="238" y2="108" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="4,2"/>
+  <line x1="168" y1="166" x2="238" y2="166" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="4,2"/>
+  <line x1="168" y1="224" x2="238" y2="224" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="4,2"/>
+  <line x1="542" y1="108" x2="574" y2="108" stroke="#10b981" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="4,2"/>
+  <line x1="542" y1="166" x2="574" y2="166" stroke="#10b981" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="4,2"/>
+  <line x1="542" y1="237" x2="574" y2="237" stroke="#10b981" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="4,2"/>
+
+  <text x="380" y="318" text-anchor="middle" fill="#334155" font-size="9">Validated with 15+ real hospital users · Top 15 Pan-India, Unleash LLM Innovation Challenge</text>
+</svg>
