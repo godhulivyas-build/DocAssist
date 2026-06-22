@@ -1,53 +1,39 @@
 <svg viewBox="0 0 720 160" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
   <title>DocAssist Patient Flow</title>
   <rect width="720" height="160" fill="#0f172a" rx="12"/>
-  <text x="360" y="24" text-anchor="middle" fill="#94a3b8" font-size="11" letter-spacing="2">PATIENT JOURNEY — SYMPTOM TO OUTCOME</text>
-
-  <!-- Step 1 -->
-  <rect x="20" y="42" width="116" height="80" rx="9" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
-  <text x="78" y="70" text-anchor="middle" fill="#3b82f6" font-size="22">🧑</text>
-  <text x="78" y="92" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Patient Inputs</text>
-  <text x="78" y="107" text-anchor="middle" fill="#64748b" font-size="8">Symptoms / Query</text>
-
-  <polygon points="144,82 158,76 158,88" fill="#475569"/>
-  <line x1="136" y1="82" x2="156" y2="82" stroke="#475569" stroke-width="1.5"/>
-
-  <!-- Step 2 -->
-  <rect x="160" y="42" width="116" height="80" rx="9" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
-  <text x="218" y="70" text-anchor="middle" fill="#8b5cf6" font-size="22">🧠</text>
-  <text x="218" y="92" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">NLP Processing</text>
-  <text x="218" y="107" text-anchor="middle" fill="#64748b" font-size="8">Entity Extraction</text>
-
-  <polygon points="284,82 298,76 298,88" fill="#475569"/>
-  <line x1="276" y1="82" x2="296" y2="82" stroke="#475569" stroke-width="1.5"/>
-
-  <!-- Step 3 -->
-  <rect x="300" y="42" width="116" height="80" rx="9" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="358" y="70" text-anchor="middle" fill="#f59e0b" font-size="22">⚡</text>
-  <text x="358" y="92" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Groq LLM</text>
-  <text x="358" y="107" text-anchor="middle" fill="#64748b" font-size="8">Fast Inference</text>
-
-  <polygon points="424,82 438,76 438,88" fill="#475569"/>
-  <line x1="416" y1="82" x2="436" y2="82" stroke="#475569" stroke-width="1.5"/>
-
-  <!-- Step 4 -->
-  <rect x="440" y="42" width="116" height="80" rx="9" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="498" y="70" text-anchor="middle" fill="#ef4444" font-size="22">📊</text>
-  <text x="498" y="92" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Evaluation</text>
-  <text x="498" y="107" text-anchor="middle" fill="#64748b" font-size="8">Relevance · Safety</text>
-
-  <polygon points="564,82 578,76 578,88" fill="#475569"/>
-  <line x1="556" y1="82" x2="576" y2="82" stroke="#475569" stroke-width="1.5"/>
-
-  <!-- Step 5 -->
-  <rect x="580" y="42" width="116" height="80" rx="9" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
-  <text x="638" y="70" text-anchor="middle" fill="#10b981" font-size="22">👨‍⚕️</text>
-  <text x="638" y="92" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Doctor Review</text>
-  <text x="638" y="107" text-anchor="middle" fill="#64748b" font-size="8">AI-Assisted Summary</text>
-
-  <text x="78" y="138" text-anchor="middle" fill="#334155" font-size="8">01</text>
-  <text x="218" y="138" text-anchor="middle" fill="#334155" font-size="8">02</text>
-  <text x="358" y="138" text-anchor="middle" fill="#334155" font-size="8">03</text>
-  <text x="498" y="138" text-anchor="middle" fill="#334155" font-size="8">04</text>
-  <text x="638" y="138" text-anchor="middle" fill="#334155" font-size="8">05</text>
+  <text x="360" y="22" text-anchor="middle" fill="#94a3b8" font-size="11" letter-spacing="2">PATIENT JOURNEY — SYMPTOM TO OUTCOME</text>
+  <rect x="20" y="36" width="116" height="84" rx="9" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <circle cx="78" cy="66" r="18" fill="#172554"/>
+  <text x="78" y="71" text-anchor="middle" fill="#3b82f6" font-size="13" font-weight="bold">01</text>
+  <text x="78" y="96" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Patient Input</text>
+  <text x="78" y="110" text-anchor="middle" fill="#64748b" font-size="8">Symptoms / Query</text>
+  <polygon points="144,78 158,72 158,84" fill="#475569"/>
+  <line x1="136" y1="78" x2="156" y2="78" stroke="#475569" stroke-width="1.5"/>
+  <rect x="160" y="36" width="116" height="84" rx="9" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="218" cy="66" r="18" fill="#2e1065"/>
+  <text x="218" y="71" text-anchor="middle" fill="#8b5cf6" font-size="13" font-weight="bold">02</text>
+  <text x="218" y="96" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">NLP Pipeline</text>
+  <text x="218" y="110" text-anchor="middle" fill="#64748b" font-size="8">Entity Extraction</text>
+  <polygon points="284,78 298,72 298,84" fill="#475569"/>
+  <line x1="276" y1="78" x2="296" y2="78" stroke="#475569" stroke-width="1.5"/>
+  <rect x="300" y="36" width="116" height="84" rx="9" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="358" cy="66" r="18" fill="#3b0764"/>
+  <text x="358" y="71" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="bold">03</text>
+  <text x="358" y="96" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Groq LLM</text>
+  <text x="358" y="110" text-anchor="middle" fill="#64748b" font-size="8">Fast Inference</text>
+  <polygon points="424,78 438,72 438,84" fill="#475569"/>
+  <line x1="416" y1="78" x2="436" y2="78" stroke="#475569" stroke-width="1.5"/>
+  <rect x="440" y="36" width="116" height="84" rx="9" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
+  <circle cx="498" cy="66" r="18" fill="#450a0a"/>
+  <text x="498" y="71" text-anchor="middle" fill="#ef4444" font-size="13" font-weight="bold">04</text>
+  <text x="498" y="96" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Evaluation</text>
+  <text x="498" y="110" text-anchor="middle" fill="#64748b" font-size="8">Relevance + Safety</text>
+  <polygon points="564,78 578,72 578,84" fill="#475569"/>
+  <line x1="556" y1="78" x2="576" y2="78" stroke="#475569" stroke-width="1.5"/>
+  <rect x="580" y="36" width="116" height="84" rx="9" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+  <circle cx="638" cy="66" r="18" fill="#052e16"/>
+  <text x="638" y="71" text-anchor="middle" fill="#10b981" font-size="13" font-weight="bold">05</text>
+  <text x="638" y="96" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Doctor Review</text>
+  <text x="638" y="110" text-anchor="middle" fill="#64748b" font-size="8">AI-Assisted Summary</text>
+  <text x="360" y="148" text-anchor="middle" fill="#334155" font-size="8">Validated with 15+ real hospital users</text>
 </svg>
